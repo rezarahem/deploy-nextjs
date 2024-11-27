@@ -1,3 +1,8 @@
+#!/bin/bash
+
+DOMAIN_NAME="ju.rahem.dev"
+EMAIL="reza.rahem224@gmail.com" 
+
 sudo apt update && sudo apt upgrade -y
 
 # Install Nginx
@@ -54,7 +59,7 @@ server {
         proxy_set_header Connection 'upgrade';
         proxy_set_header Host \$host;
         proxy_cache_bypass \$http_upgrade;
-
+        
         # Disable buffering for streaming support
         proxy_buffering off;
         proxy_set_header X-Accel-Buffering no;
@@ -92,6 +97,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo ln -sf /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 sudo systemctl enable docker
+
 sudo systemctl start docker
 
-
+echo "Vps is ready"

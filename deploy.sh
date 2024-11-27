@@ -2,7 +2,6 @@
 
 # Script Vars
 DOMAIN_NAME="ju.rahem.dev"
-EMAIL="reza.rahem224@gmail.com" 
 REPO_URL="https://github.com/rezarahem/deploy-nextjs.git"
 APP_DIR=~/myapp
 
@@ -27,5 +26,4 @@ if ! sudo docker-compose ps | grep "Up"; then
 fi
 
 
-echo "Deployment complete. Your Next.js app and PostgreSQL database are now running. 
-Next.js is available at https://$DOMAIN_NAME, and the PostgreSQL database is accessible from the web service."
+echo "https://$DOMAIN_NAME"
