@@ -27,3 +27,8 @@ sudo ln -sf /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 sudo systemctl enable docker
 sudo systemctl start docker
+
+
+
+chmod +x ~/deploy.sh
+./deploy.sh

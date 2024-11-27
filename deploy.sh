@@ -3,7 +3,7 @@
 
 # Script Vars
 DOMAIN_NAME="ju.rahem.dev"
-EMAIL="reza.rahem224@example.com" 
+EMAIL="reza.rahem224@gmail.com" 
 REPO_URL="https://github.com/rezarahem/deploy-nextjs.git"
 APP_DIR=~/myapp
 
