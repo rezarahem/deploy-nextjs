@@ -3,7 +3,7 @@
 1. **Download the deployment script**:
 
 ```bash
-curl -o ~/deploy.sh https://raw.githubusercontent.com/rezarahem/deploy-nextjs/master/kick.sh
+curl -o ~/kick.sh https://raw.githubusercontent.com/rezarahem/deploy-nextjs/master/kick.sh
 curl -o ~/deploy.sh https://raw.githubusercontent.com/rezarahem/deploy-nextjs/master/deploy.sh
 ```
 
